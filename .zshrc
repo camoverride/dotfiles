@@ -24,3 +24,10 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 PROMPT='%F{green}%~%f${vcs_info_msg_0_}% %f $ '
+
+PATH="/usr/local/bin/:$PATH"
+PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
+
+conda activate
+
+alias grep="grep --color=auto"
